@@ -19,5 +19,9 @@ public class Main {
 			i += 1;
 			System.out.println("Valor i: " + i);
 		}while (i < 20);
+		System.out.println("Usando for");
+		for (i = 1; i <= 20; i++) {
+			System.out.println("Valor i: " + i);
+		}
 	}
 }
